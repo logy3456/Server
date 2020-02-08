@@ -4,4 +4,4 @@
 ./ngrok tcp -region eu 25565 &
 echo "Starting Minecraft server… will take a while; please wait."
 node index.js &
-java -jar -Xms2G spigot-1.14.4.jar
+java -jar -Xms7G -Xmx15G spigot-1.14.4.jar
